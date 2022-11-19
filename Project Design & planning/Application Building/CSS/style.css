@@ -1,0 +1,213 @@
+.img1 {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+img:hover {
+    background-color: rgb(45, 124, 192);
+    transition: 2s;
+}
+
+.bo-img {
+    width: 100%;
+}
+
+header {
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 40%;
+}
+
+.title {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 28%;
+    text-align: center;
+    color: white;
+    z-index: 999;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 20px lightblue;
+}
+
+.shade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -30%;
+    transition: 0.5s;
+}
+
+.shade:hover {
+    background: rgba(105, 140, 222, 0.44);
+    transition: 2s;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    margin-right: 15px;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading h2,
+h3 {
+    font-size: x-large;
+}
+
+nav {
+    margin-top: -55%;
+    margin-left: 80%;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 3px;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+form input,
+select {
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 251, 251);
+    font-weight: bolder;
+    background-color: rgba(127, 255, 212, 0);
+    padding: 10px 100px;
+    margin-left: 12%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width:348px;
+    padding-right: 5px;
+    padding-left: 5px;
+    box-shadow: 0px 0px 20px rgba(9, 150, 231, 0.832);
+}
+
+select {
+    -webkit-appearance: none;
+    background-image: url(...);
+    padding-left: 10px;
+    width: 349px;
+    border-radius: 0px;
+}
+
+.font select {
+    margin-top: 15px;
+}
+
+select:hover {
+    background-color: rgb(7, 76, 215);
+    transition: 1s;
+}
+
+.sub-btn {
+    margin-left: 35%;
+    margin-top: 20px;
+    background-color: rgb(239, 23, 106);
+    padding: 10px 30px;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgb(177, 104, 254);
+}
+
+section {
+    position: absolute;
+    margin-top: -44%;
+    margin-left: 36%;
+}
+
+.details {
+    width: 450px;
+}
+
+.lef-aro {
+    margin-left: 7%;
+}
+
+.rit-aro {
+    margin-left: 90%;
+}
+
+.lef-aro,
+.rit-aro {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -46%;
+}
+
+.lef-aro a,
+.rit-aro a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.font {
+    padding-left: 54px
+}
+
+
+/* index file */
+
+.b-img {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -50%;
+}
+
+nav a {
+    margin-right: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    border-bottom: 2px solid rgb(0, 110, 255);
+    transition: 0.5s;
+}
+
+.h-tit h1 {
+    position: absolute;
+    margin-top: -34%;
+    margin-left: 27%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.h-tit h1:hover {
+    background-color: transparent;
+    text-shadow: 2px 2px 40px rgb(3, 7, 217);
+    transition: 2s;
+}
+
+.h-tit h1:hover {
+    font-size: 55px;
+    transition: 0.5s;
+}
+/* form */
+
