@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Predictions</title>
+        
+        <link rel="stylesheet" href="../static/style.css">     
+        
+    </head>
+
+    <body>
+        <img style="height: 110%;" class="bo-img" src="{{url_for('static',filename='Purple White Hand-drawn  Education Website.png')}}">
+        <div style="margin-left: 20%;padding-left: 100px;" class="formbox">    
+            <form action="/predict" method="post">
+            <h2>Enter Your Details</h2>
+            
+           
+            <div class="detail">
+                <input type="text" name="AGE" required="" placeholder="Age">
+                
+
+            </div>
+            <div class="detail">
+                <input type="text" name="BU" required="" placeholder="Blood Urea">
+               
+            
+            </div>
+            <label for="coronatrea">Are You Affected by coronary artery disease?</label><br/>
+                <select name="coronary artery disease" id="coronary artery">
+                <option value="1">YES</option>
+                <option value="0">NO</option></select><br>
+                <label for="Anemia">Are You Affected by Anemia ?</label><br/>
+                <select name="Anemia" id="Anemia">
+                <option value="1">YES</option>
+                <option value="0">NO</option></select><br> 
+
+            <label for="PUS">PUS Cell</label><br/>
+            <select name="PUS" id="PUS">
+            <option value="1">Normal</option>
+            <option value="0">Abnormal</option></select><br>
+
+            <label for="Red Blood Cell">Red Blood Cell Count</label>  <br/> 
+            <select name="Red Blood Cell" id="Red Blood Cell">
+                <option value="1">Normal</option>
+                <option value="0">Abnormal</option></select><br>
+                
+            <div class="detail">
+            </div>
+           
+             
+             
+             <label for="Diabetesmellitus">Are you affected by Diabetes mellitus ?</label><br/>
+                <select name="Diabetesmellitus" id="Diabetesmellitus">
+                <option value="1">YES</option>
+                <option value="0">NO</option></select><br>
+              
+                <label for="Pedal Edema">Pedal Edema</label>   <br/>
+                <select name="Pedal Edema" id="Pedal Edema">
+                    <option value="1">Normal</option>
+                    <option value="0">Abnormal</option></select><br>
+            
+            
+             <div class="formbox"> 
+              <input class="btn" type="Submit" value="Submit">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </form>
+            </div>  
+            
+        </form>
+        </div>
+          <div>
+            {{pred}}
+          </div>
+        
+    </body>
+</html>
+
+<style>
+    .formbox{
+    position: absolute;
+    margin-top: -60%;
+}
+.formbox h2{
+    color: azure;
+    margin-left:50%;
+}
+.formbox label{
+    color: aliceblue;
+}
+form input, select{
+    margin-left: 30%;
+}
+.btn{
+    position: relative;
+    margin-left: 230px;
+    margin-top: 300px;
+    width: 150px;
+    
+    
+}
+label{
+    padding-left: 115px;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+.formbox select,.detail{
+    margin-bottom: 10px;
+}
+</style>
